@@ -5,9 +5,26 @@ public class Task01 {
 
         Unicorn unicorn = new Unicorn();
         System.out.println(unicorn.getName());
+        fly(unicorn);
+        run(unicorn);
 
         Racoon raccon = new Racoon();
         System.out.println(raccon.getName());
+        run(raccon);
+        swim(raccon);
 
     }
+
+    private static void fly(Flyable flyable) {
+        flyable.fly();
+    }
+
+    private static void run(Runable runable) {
+        runable.run();
+    }
+
+    private static void swim(Swimable swimable) {
+        swimable.swim();
+    }
+
 }
