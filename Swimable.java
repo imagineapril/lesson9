@@ -1,4 +1,4 @@
-package ru.timokhina.lesson9.task01;
+package ru.timokhina.lesson9.task03;
 
 public interface Swimable {
 
